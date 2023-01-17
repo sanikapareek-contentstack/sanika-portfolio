@@ -166,7 +166,7 @@
 }
 
 @media screen and (max-width:957px) {
-    .project{
+    .project,.education{
         flex-direction: column;
         justify-content: center;
         padding: 10px;
@@ -174,10 +174,10 @@
 }
 
 @media screen and (max-width:1100px) {
-   .project-cards,.project-card-header{
+   .project-cards,.project-card-header,.education-cards,.education-card-header{
     width: 320px;
    }
-   .project-card-content{
+   .project-card-content,.education-card-content{
     padding: 50px 3px;
    }
    
