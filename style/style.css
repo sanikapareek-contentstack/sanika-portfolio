@@ -61,6 +61,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 3%;
+    
 }
 
 .project-cards{
@@ -68,6 +69,7 @@
     height: 300px;
     margin: 1%;
     background-color: rgb(247, 244, 244);
+    border-radius: 20px;
 }
 .project-card-header{
     height: 100px;
@@ -75,6 +77,7 @@
     background-color: gray;
     text-align: center;
     padding: 25px;
+    border-radius: 20px 20px 0 0 ;
 }
 
 .project-card-header h2{
@@ -106,4 +109,22 @@
     .aboutme,.details{
         width: 100vw;
     }
+}
+
+@media screen and (max-width:957px) {
+    .project{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+   .project-cards,.project-card-header{
+    width: 320px;
+   }
+   .project-card-content{
+    padding: 50px 3px;
+   }
+   
 }
