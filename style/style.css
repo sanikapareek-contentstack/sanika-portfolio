@@ -30,7 +30,7 @@
     margin: 0 auto;
 }
 
-.profile-heading, .project-heading{
+.profile-heading, .project-heading,.achievements-heading{
     margin-top: 35px;
     text-align: center;
 }
@@ -48,6 +48,7 @@
 }
 .aboutme p, .details p{
     text-align: left;
+    font-size: 1.2rem;
 }
 
 .details{
@@ -86,7 +87,17 @@
 
 .project-card-content{
     text-align: left;
-    padding: 50px 5px;
+    padding: 40px 5px;
+    font-size: 1.2rem;
+}
+
+.achievements{
+    padding: 50px;
+    
+}
+
+.achievements li{
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width:450px) {
