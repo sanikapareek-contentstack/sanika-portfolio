@@ -58,10 +58,32 @@
 
 .project{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3%;
 }
 
 .project-cards{
+    width: 350px;
+    height: 300px;
+    margin: 1%;
+    background-color: rgb(247, 244, 244);
+}
+.project-card-header{
+    height: 100px;
+    width: 350px;
+    background-color: gray;
+    text-align: center;
+    padding: 25px;
+}
 
+.project-card-header h2{
+    color: white;
+}
+
+.project-card-content{
+    text-align: left;
+    padding: 50px 5px;
 }
 
 @media screen and (max-width:450px) {
