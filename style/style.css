@@ -84,6 +84,11 @@
     background-color: rgb(247, 244, 244);
     border-radius: 20px;
 }
+
+.project-cards:hover,.education-cards:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+}
 .project-card-header{
     height: 100px;
     width: 350px;
@@ -170,7 +175,7 @@
     }
 }
 
-@media screen and (max-width:957px) {
+@media screen and (min-width:500px) and (max-width:710px) {
     .project,.education{
         flex-direction: column;
         justify-content: center;
@@ -178,12 +183,17 @@
     }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:957px) {
+    .project-cards,.education-cards{
+        margin-top: 20px;
+    }
    .project-cards,.project-card-header,.education-cards,.education-card-header{
-    width: 320px;
+        width: 320px;
    }
    .project-card-content,.education-card-content{
-    padding: 50px 3px;
+        padding: 50px 3px;
    }
    
 }
+
+
