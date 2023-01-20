@@ -4,7 +4,59 @@
     box-sizing: border-box;
 }
 
+#about{
+    scroll-margin-top: 8vh;
+}
+
+#education{
+    scroll-margin-top: 12vh;
+}
+
+#achievements{
+    scroll-margin-top: 8vh;
+}
+
+#projects{
+    scroll-margin-top: 8vh;
+}
+
 .header{
+    width:100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.3);
+    
+}
+
+.header-logo img{
+    height: 50px;
+    margin: 5px 20px;
+}
+
+.header-nav ul{
+    display: flex;
+    justify-content: end;
+    margin: 15px 10px;
+    list-style: none;
+}
+
+.header-nav a{
+    text-decoration: none;
+    margin:2.5px 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.header-nav a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.banner{
     display: flex;
     background:url(../assets/background.png);
     background-repeat: no-repeat;
